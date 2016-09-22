@@ -23,7 +23,7 @@ nanobox dev dns add expressjs.nanobox.dev
 nanobox dev console
 
 # run the application
-/app $ npm start
+npm start
 ```
 
 Visit the app from your favorite browser at: `expressjs.nanobox.dev:8080`
