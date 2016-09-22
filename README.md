@@ -10,11 +10,11 @@ git clone https://github.com/nanobox-quickstarts/nanobox-expressjs.git
 # cd into the expressjs app
 cd nanobox-expressjs
 
-# build the code
+# build runtime and compile application
 nanobox build
 
-# start the dev environment
-nanobox dev start
+# deploy runtime to dev environment
+nanobox dev deploy
 
 # add a convenient way to access your app from the browser
 nanobox dev dns add expressjs.nanobox.dev
@@ -22,7 +22,7 @@ nanobox dev dns add expressjs.nanobox.dev
 # console into the dev environment
 nanobox dev console
 
-# run the app
+# run the application
 /app $ npm start
 ```
 
