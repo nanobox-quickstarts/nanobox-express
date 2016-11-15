@@ -1,32 +1,48 @@
-# Express.js with Nanobox
-This is the companion application for the [Express.js: Getting Started](https://guides.nanobox.io/expressjs/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
+![Express from scratch](https://guides.nanobox.io/assets/quickstart-icons/express.png)
 
-## Up and Running
+#### Clone the repo
 
-``` bash
+```bash
 # clone the code
-git clone https://github.com/nanobox-quickstarts/nanobox-expressjs.git
+git clone https://github.com/nanobox-quickstarts/nanobox-express.git
 
-# cd into the expressjs app
-cd nanobox-expressjs
-
-# build runtime and compile application
-nanobox build
-
-# deploy runtime to dev environment
-nanobox dev deploy
-
-# add a convenient way to access your app from the browser
-nanobox dev dns add expressjs.nanobox.dev
-
-# console into the dev environment
-nanobox dev console
-
-# run the application
-npm start
+# cd into the express app
+cd nanobox-express
 ```
 
-Visit the app from your favorite browser at: `expressjs.nanobox.dev:8080`
+#### Run the app
 
-### Now What?
-For more details about how this works or for more advanced topics related to running Express.js applications with Nanobox, visit [guides.nanobox.io/expressjs/](https://guides.nanobox.io/expressjs/)
+```bash
+# Run express as you would normally, with Nanobox
+nanobox run npm start
+```
+
+#### Check it out
+
+```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local express.dev
+```
+
+Visit your app -> [express.dev:3000](http://express.dev:3000)
+
+#### Explore
+
+With Nanobox, you don't have to have anything installed on your machine to run your app:
+
+```bash
+# drop into a Nanobox console
+nanobox run
+
+# where nodejs is installed,
+node -v
+
+# your packages are available,
+npm list
+
+# and your code is mounted
+ls
+```
+
+#### Now What?
+For more details about running express apps with nanobox visit [guides.nanobox.io/nodejs/express/](https://guides.nanobox.io/nodejs/express/)
