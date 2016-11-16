@@ -1,5 +1,16 @@
-code.build:
+run.config:
   engine: nodejs
 
-web.express:
-  start: 'npm start'
+  # add nginx package
+  extra_packages:
+    - nginx
+
+# add a postgres database
+data.db:
+  image: nanobox/postgresql
+
+# add a web component and give it a "start" command
+web.main:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    node: npm start

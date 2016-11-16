@@ -34,7 +34,7 @@ With Nanobox, you don't have to have anything installed on your machine to run y
 # drop into a Nanobox console
 nanobox run
 
-# where nodejs is installed,
+# where node is installed,
 node -v
 
 # your packages are available,
