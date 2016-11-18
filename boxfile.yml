@@ -14,3 +14,7 @@ web.main:
   start:
     nginx: nginx -c /app/config/nginx.conf
     node: npm start
+
+# add a worker component and give it a "start" command
+# worker.main:
+#   start: node worker.js

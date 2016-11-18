@@ -24,7 +24,7 @@ nanobox run npm start
 nanobox dns add local express.dev
 ```
 
-Visit your app -> [express.dev:3000](http://express.dev:3000)
+Visit your app at <a href="http://express.dev:3000" target="\_blank">express.dev:3000</a>
 
 #### Explore
 
