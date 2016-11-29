@@ -2,7 +2,7 @@
 
 # Express from scratch
 
-Run a Express app locally, install nothing besides nanobox. 
+Run an Express app locally, install nothing besides nanobox. 
 
 <a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 
