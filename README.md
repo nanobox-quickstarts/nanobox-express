@@ -20,16 +20,14 @@ cd nanobox-express
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local express.dev
+
 # Run express as you would normally, with Nanobox
 nanobox run npm start
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local express.dev
-```
 
 Visit your app at <a href="http://express.dev:3000" target="\_blank">express.dev:3000</a>
 
