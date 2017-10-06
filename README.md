@@ -49,6 +49,14 @@ npm list
 ls
 ```
 
+## Lets clean things up
+
+If you want to keep this project ignore this. If not, lets clean things up by removing the DNS entry:
+
+```
+nanobox dns rm local express.dev
+```
+
 ## Now What?
 For more details about running express apps with nanobox visit [guides.nanobox.io/nodejs/express/](https://guides.nanobox.io/nodejs/express/)
 
