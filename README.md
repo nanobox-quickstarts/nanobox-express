@@ -49,11 +49,11 @@ npm list
 ls
 ```
 
-## Lets clean things up
+## Clean things up _(optional)_
 
-If you want to keep this project ignore this. If not, lets clean things up by removing the DNS entry:
+If you want to keep this project ignore this. If not, clean things up by removing the DNS entry:
 
-```
+```bash
 nanobox dns rm local express.dev
 ```
 
